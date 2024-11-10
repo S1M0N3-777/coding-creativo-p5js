@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,13 +46,19 @@
             arc(mouseX,mouseY,200,100,0,180);
             
             //fill()Esercizio 2
+            fill(mouseX,mouseY,190)
             circle(250,200,100)
 
 
              /*  
              Esercizio da proporre:
                 - Modifica di un cerchio e variazione del colore in base al mouse
+                background(bgColor,bgColor2,Math.abs((bgColor+bgColor2)/2))
+                noFill()
+                circle(250,200,100)
+
                 - Creazione di un arco di ampiezza variabile in base alla posizione del mouse. 
+                arc(250,70,mouseX,100,0,180)
              */
 
         }
